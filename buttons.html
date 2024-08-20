@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="help.html">
+        <button>menu</button>
+    </a>
+
+        <br>
+
+        <button onclick="die()" style="font-size: 25px;background-color:gray;">click me</button>
+        
+        <br>
+
+        <p id="green">hello</p>
+
+        <script>
+            function die(){
+               document.getElementById("green").innerHTML = "die";
+            }
+        </script>
+
+
+
+
+        <button onclick="game()" style="font-size: 25px; background-color: aquamarine; border-radius:90px;">name</button>
+        <h1>name:</h1><h1 id="name"></h1>
+
+        <script src="javascipt/veriable.js"></script>
+</body>
+</html>
